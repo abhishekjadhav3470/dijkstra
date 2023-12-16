@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortest Distance Calculator</title>
+</head>
+<body>
+    <h1>Shortest Distance Calculator</h1>
+    <form action="/calculate" method="post">
+        <label for="user_defined_point">User Defined Point:</label>
+        <input type="text" name="user_defined_point" required>
+        <br>
+        <label for="nearest_node">Nearest Node:</label>
+        <input type="text" name="nearest_node" required>
+        <br>
+        <label for="no_of_vehicles">Number of Vehicles:</label>
+        <input type="number" name="no_of_vehicles" required>
+        <br>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
